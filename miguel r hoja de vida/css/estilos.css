@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+    color: #000000; 
+}
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #1c1c1c; 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); 
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #ffffff; 
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1 1 calc(33.33% - 20px); 
+    margin: 10px;
+    text-align: center;
+    background-color: #333333; 
+    color: #fcf8f8; 
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+}
+
+.titulo-detalle {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+p {
+    margin: 0;
+    color: #fefdfd; 
+}
+
+.fa-solid {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #ffffff; 
+    border-bottom: 2px solid #ff6600; 
+    padding-bottom: 5px;
+    margin-bottom: 
+10px;
+}
+
+ul {
+list-style: none;
+padding: 0;
+}
+
+li {
+background-color: #ff6600; 
+border-radius: 5px;
+}
+
+li:nth-child(even) {
+background-color: #ff8533; 
+}
+
+.especialidades {
+margin-top: 20px;
+}
+
+.especialidades h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.especialidades ul {
+margin: 0;
+padding: 0;
+display: grid; 
+}
+
+.especialidades li {
+width: auto; 
+text-align: center;
+}
+
+.contacto {
+text-align: center;
+margin-top: 20px;
+}
+
+.boton-contacto {
+display: inline-block;
+padding: 10px 20px;
+background-color: #ff6600; 
+text-decoration: none;
+border-radius: 5px;
+transition: background-color 0.3s;
+}
+
+.boton-contacto:hover {
+background-color: #cc5200; 
+}
+
+
+
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos y Contacto</title>
+    <link rel="stylesheet" href="css/estilos2.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- Asegúrate de incluir Font Awesome -->
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Proyectos Realizados y Contacto</h1>
+        </header>
+
+        <!-- Sección de Proyectos Realizados -->
+        <div class="proyectos">
+            <h2>Proyectos Realizados</h2>
+            <div class="proyecto">
+                <h3>Proyecto 1: Portal de Reservas para un Hotel:</h3>
+                <p>Desarrollé un sistema de reservas en línea utilizando HTML, CSS y JavaScript para el front-end, y Node.js con SQL Server para el back-end. El portal permite a los clientes verificar la disponibilidad de habitaciones, hacer reservas y realizar pagos en línea. Diseñé la base de datos para gestionar eficientemente las reservas, clientes y pagos, asegurando la integridad y seguridad de los datos.</p>
+                <p>Resultados: Aumento del 85% en las ventas en los primeros tres meses y a la vez tuvimos una mejor optimizacion de toda la pagina</p>
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 2: Sitio Web Corporativo con Optimización CEO:</h3>
+                <p>Desarrollé el sitio web corporativo de una empresa de consultoría, enfocándome en el CEO y el marketing digital para mejorar su visibilidad en motores de búsqueda. Utilicé herramientas de análisis SEO para optimizar el contenido y la estructura del sitio, y desarrollé estrategias de marketing digital para aumentar el tráfico y la conversión de usuarios.
+                </p>
+                <p>Las estrategias de marketing digital implementadas llevaron a un aumento del 30% en la generación de leads y mejoraron la tasa de conversión en un 20%.</p>
+            </div>
+        </div>
+
+        <!-- Formulario de Contacto -->
+        <div class="contacto">
+            <h2>Formulario de Contacto</h2>
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+                
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefono">Número de Contacto:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                
+                <label for="tipo-telefono">Tipo de Número:</label>
+                <select id="tipo-telefono" name="tipo-telefono" required>
+                    <option value="personal">Personal</option>
+                    <option value="fijo">Fijo</option>
+                    <option value="oficina">Oficina</option>
+                </select>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
